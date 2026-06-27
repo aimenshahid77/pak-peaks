@@ -21,7 +21,7 @@ export default function Home() {
       <Gallery />
       <Reviews />
       <Faq />
-      <CTA /> 
+      <CTA />
     </>
   );
 }

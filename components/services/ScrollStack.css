@@ -2,14 +2,15 @@
   position: relative;
   width: 100%;
   height: auto;
-  overflow: visible;
+  overflow: visible; 
 }
 
 .scroll-stack-inner {
   position: relative;
   width: 100%;
   padding-top: 5vh;
-  padding-bottom: 40vh;
+ 
+  padding-bottom: 75vh; 
 }
 
 .scroll-stack-card {
@@ -21,19 +22,17 @@
   will-change: transform, filter;
   transform-origin: top center;
   backface-visibility: hidden;
-}
-
-.scroll-stack-card * {
   text-rendering: optimizeSpeed;
 }
 
 .scroll-stack-end {
   width: 100%;
   height: 1px;
+  margin-top: 10vh; 
 }
 
 @media (max-width: 768px) {
   .scroll-stack-inner {
-    padding-bottom: 20vh;
+    padding-bottom: 45vh;
   }
 }
